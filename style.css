@@ -71,6 +71,9 @@ p {
     background-color: #f4223a;
 }
 
-a{
-	cursor: pointer;
+.btn{
+    display: inline-block;
+    cursor: pointer;   
+    text-align: center;
+    vertical-align: middle;
 }
