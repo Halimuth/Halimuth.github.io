@@ -1,0 +1,76 @@
+body, html{
+width: 100%;
+height:100%;
+}
+.startup{
+
+	background: -webkit-linear-gradient(rgba(40, 66, 90, 0.5) 0px, rgba(50, 80, 90, 0.7) 100%), url("mountain.jpg");
+	background-repeat: no-repeat;
+	background-position: center;
+	background-size: cover;
+	/*background-attachment: scroll;*/
+	display: block;
+	height:100%;
+	font-family: "Merriweather Sans",-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica Neue",Arial,"Noto Sans",sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol","Noto Color Emoji";
+}
+
+.container{
+
+	width:100%
+	padding-right:15%;
+	padding-left:10%;
+	margin-right: auto;
+	margin-left:auto;
+
+}
+
+
+h1 {color: #f1f1f1;
+	margin-bottom: .5rem;
+    font-weight: 600;
+    line-height: 1.2;
+      
+}
+
+hr{
+	max-width: 4rem;
+	border-width: .2rem;
+	border-color:#f4223a; 
+	margin-top: 2rem;
+	margin-bottom: 1.5rem;	
+}
+.text-white{
+	color: rgba(200, 200, 200, .80);
+}
+.font-weight-light{
+	 font-weight: 350;
+} 
+.mb-5{
+	margin-bottom: .5rem;
+}
+p {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: .5em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    font-size: 1.5em;
+  	color: rgba(255, 255, 255, .75);}
+
+.btn-xl {
+    padding: 1rem 1rem;
+    font-size: 1rem;
+    font-weight: 600;
+    text-transform: uppercase;
+    border: none;
+    border-radius:9rem;
+ }
+
+ .btn-primary {
+    color: #fff;
+    background-color: #f4223a;
+}
+
+a{
+	cursor: pointer;
+}
