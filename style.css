@@ -17,8 +17,8 @@ height:100%;
 .container{
 
 	width:100%
-	padding-right:15%;
-	padding-left:15%;
+	/*padding-right:20%;
+	padding-left:20%;*/
 	margin-right: auto;
 	margin-left:auto;
 
@@ -29,6 +29,8 @@ h1 {color: #f1f1f1;
 	margin-bottom: .5rem;
     font-weight: 600;
     line-height: 1.2;
+    padding-right:20%;
+	padding-left:20%;
       
 }
 
@@ -50,14 +52,10 @@ hr{
 }
 p {
     display: block;
-/*     margin-block-start: 1em;
+  /*  margin-block-start: 1em;
     margin-block-end: .5em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px; */
-       
-    text-align: center;
-    vertical-align: middle;
-}
+    margin-inline-end: 0px;*/
     font-size: 1.5em;
   	color: rgba(255, 255, 255, .75);}
 
@@ -68,6 +66,7 @@ p {
     text-transform: uppercase;
     border: none;
     border-radius:9rem;
+
  }
 
  .btn-primary {
@@ -75,9 +74,12 @@ p {
     background-color: #f4223a;
 }
 
+a{
+	cursor: pointer;
+}
 .btn{
-    
-    cursor: pointer;   
+	display: inline-block;
+   
     text-align: center;
     vertical-align: middle;
 }
