@@ -18,7 +18,7 @@ height:100%;
 
 	width:100%
 	padding-right:15%;
-	padding-left:10%;
+	padding-left:15%;
 	margin-right: auto;
 	margin-left:auto;
 
@@ -50,10 +50,15 @@ hr{
 }
 p {
     display: block;
-    margin-block-start: 1em;
+/*     margin-block-start: 1em;
     margin-block-end: .5em;
     margin-inline-start: 0px;
-    margin-inline-end: 0px;
+    margin-inline-end: 0px; */
+    display: inline-block;
+   
+    text-align: center;
+    vertical-align: middle;
+}
     font-size: 1.5em;
   	color: rgba(255, 255, 255, .75);}
 
